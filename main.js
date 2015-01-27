@@ -1,4 +1,24 @@
+function check() {
+	
 
+	var valU = document.getElementById('username').value;
+	var valP = document.getElementById('password').value;
+
+
+if(valU=="Akriti")
+{
+	if(valP=="aaa")
+	{
+		x=confirm('CONTINUE?')
+	}
+}
+
+if (x==true)
+{
+	location='#home'
+}
+
+}
 
      /*$('#sendMe').click(function(){
 
